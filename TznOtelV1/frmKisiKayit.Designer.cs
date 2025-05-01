@@ -1,0 +1,543 @@
+﻿namespace TznOtelV1
+{
+    partial class frmKisiKayit
+    {
+        /// <summary>
+        ///Gerekli tasarımcı değişkeni.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///Kullanılan tüm kaynakları temizleyin.
+        /// </summary>
+        ///<param name="disposing">yönetilen kaynaklar dispose edilmeliyse doğru; aksi halde yanlış.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer üretilen kod
+
+        /// <summary>
+        /// Tasarımcı desteği için gerekli metot - bu metodun 
+        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_cıkıs = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtTcKimlik = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDogumTarihi = new System.Windows.Forms.MaskedTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtTelNo = new System.Windows.Forms.MaskedTextBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.rbKadin = new System.Windows.Forms.RadioButton();
+            this.rbErkek = new System.Windows.Forms.RadioButton();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtMail = new System.Windows.Forms.TextBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtAciklama = new System.Windows.Forms.TextBox();
+            this.btnTemizle = new System.Windows.Forms.Button();
+            this.btnSonraki = new System.Windows.Forms.Button();
+            this.lblCinsiyetKontrol = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.panel1.Controls.Add(this.btn_cıkıs);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(778, 40);
+            this.panel1.TabIndex = 0;
+            // 
+            // btn_cıkıs
+            // 
+            this.btn_cıkıs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.btn_cıkıs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cıkıs.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_cıkıs.FlatAppearance.BorderSize = 0;
+            this.btn_cıkıs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cıkıs.ForeColor = System.Drawing.Color.White;
+            this.btn_cıkıs.Location = new System.Drawing.Point(738, 0);
+            this.btn_cıkıs.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_cıkıs.Name = "btn_cıkıs";
+            this.btn_cıkıs.Size = new System.Drawing.Size(40, 40);
+            this.btn_cıkıs.TabIndex = 1;
+            this.btn_cıkıs.Text = "X";
+            this.btn_cıkıs.UseVisualStyleBackColor = false;
+            this.btn_cıkıs.Click += new System.EventHandler(this.btn_cıkıs_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(51, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(201, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "KİŞİ KAYIT EKRANI - 1";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.txtTcKimlik);
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox1.Location = new System.Drawing.Point(65, 87);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox1.Size = new System.Drawing.Size(200, 49);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "TC KİMLİK NUMARASI";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(-2, 2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(17, 21);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "*";
+            // 
+            // txtTcKimlik
+            // 
+            this.txtTcKimlik.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTcKimlik.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtTcKimlik.Location = new System.Drawing.Point(15, 24);
+            this.txtTcKimlik.MaxLength = 11;
+            this.txtTcKimlik.Name = "txtTcKimlik";
+            this.txtTcKimlik.Size = new System.Drawing.Size(170, 22);
+            this.txtTcKimlik.TabIndex = 0;
+            this.txtTcKimlik.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTcKimlik_KeyPress);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.txtAd);
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox2.Location = new System.Drawing.Point(65, 142);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox2.Size = new System.Drawing.Size(200, 49);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "İSİM";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(-2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(17, 21);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "*";
+            // 
+            // txtAd
+            // 
+            this.txtAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAd.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtAd.Location = new System.Drawing.Point(15, 24);
+            this.txtAd.MaxLength = 30;
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(170, 22);
+            this.txtAd.TabIndex = 1;
+            this.txtAd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAd_KeyPress);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.txtSoyad);
+            this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox3.Location = new System.Drawing.Point(65, 206);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox3.Size = new System.Drawing.Size(200, 49);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "SOYİSİM";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(-2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(17, 21);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "*";
+            // 
+            // txtSoyad
+            // 
+            this.txtSoyad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoyad.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtSoyad.Location = new System.Drawing.Point(15, 24);
+            this.txtSoyad.MaxLength = 30;
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(170, 22);
+            this.txtSoyad.TabIndex = 2;
+            this.txtSoyad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoyad_KeyPress);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Controls.Add(this.txtDogumTarihi);
+            this.groupBox4.Controls.Add(this.label2);
+            this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox4.Location = new System.Drawing.Point(289, 87);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox4.Size = new System.Drawing.Size(200, 49);
+            this.groupBox4.TabIndex = 4;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "DOĞUM TARİHİ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(-2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(17, 21);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "*";
+            // 
+            // txtDogumTarihi
+            // 
+            this.txtDogumTarihi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDogumTarihi.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtDogumTarihi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.txtDogumTarihi.Location = new System.Drawing.Point(15, 24);
+            this.txtDogumTarihi.Mask = "00/00/0000";
+            this.txtDogumTarihi.Name = "txtDogumTarihi";
+            this.txtDogumTarihi.Size = new System.Drawing.Size(170, 22);
+            this.txtDogumTarihi.TabIndex = 3;
+            this.txtDogumTarihi.ValidatingType = typeof(System.DateTime);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(135, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "gg.aa.yyyy";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label9);
+            this.groupBox5.Controls.Add(this.txtTelNo);
+            this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox5.Location = new System.Drawing.Point(504, 87);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox5.Size = new System.Drawing.Size(200, 49);
+            this.groupBox5.TabIndex = 7;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "TELEFON NUMARASI";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.ForeColor = System.Drawing.Color.Red;
+            this.label9.Location = new System.Drawing.Point(-2, -1);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(17, 21);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "*";
+            // 
+            // txtTelNo
+            // 
+            this.txtTelNo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTelNo.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtTelNo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.txtTelNo.Location = new System.Drawing.Point(15, 24);
+            this.txtTelNo.Mask = "(999) 000-0000";
+            this.txtTelNo.Name = "txtTelNo";
+            this.txtTelNo.Size = new System.Drawing.Size(170, 22);
+            this.txtTelNo.TabIndex = 7;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label7);
+            this.groupBox6.Controls.Add(this.rbKadin);
+            this.groupBox6.Controls.Add(this.rbErkek);
+            this.groupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox6.Location = new System.Drawing.Point(289, 142);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox6.Size = new System.Drawing.Size(200, 49);
+            this.groupBox6.TabIndex = 5;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "CİNSİYET";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(-2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(17, 21);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "*";
+            // 
+            // rbKadin
+            // 
+            this.rbKadin.AutoSize = true;
+            this.rbKadin.Location = new System.Drawing.Point(103, 18);
+            this.rbKadin.Name = "rbKadin";
+            this.rbKadin.Size = new System.Drawing.Size(69, 25);
+            this.rbKadin.TabIndex = 5;
+            this.rbKadin.Text = "Kadın";
+            this.rbKadin.UseVisualStyleBackColor = true;
+            this.rbKadin.CheckedChanged += new System.EventHandler(this.rbKadin_CheckedChanged);
+            // 
+            // rbErkek
+            // 
+            this.rbErkek.AutoSize = true;
+            this.rbErkek.Checked = true;
+            this.rbErkek.Location = new System.Drawing.Point(18, 18);
+            this.rbErkek.Name = "rbErkek";
+            this.rbErkek.Size = new System.Drawing.Size(67, 25);
+            this.rbErkek.TabIndex = 4;
+            this.rbErkek.TabStop = true;
+            this.rbErkek.Text = "Erkek";
+            this.rbErkek.UseVisualStyleBackColor = true;
+            this.rbErkek.CheckedChanged += new System.EventHandler(this.rbErkek_CheckedChanged);
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label10);
+            this.groupBox7.Controls.Add(this.txtMail);
+            this.groupBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox7.Location = new System.Drawing.Point(504, 142);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox7.Size = new System.Drawing.Size(200, 49);
+            this.groupBox7.TabIndex = 8;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "MAİL ADRESİ";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(-2, 1);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(17, 21);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "*";
+            // 
+            // txtMail
+            // 
+            this.txtMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMail.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtMail.Location = new System.Drawing.Point(15, 24);
+            this.txtMail.MaxLength = 30;
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(170, 22);
+            this.txtMail.TabIndex = 8;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label8);
+            this.groupBox8.Controls.Add(this.txtAciklama);
+            this.groupBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.groupBox8.Location = new System.Drawing.Point(289, 206);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(15, 3, 15, 3);
+            this.groupBox8.Size = new System.Drawing.Size(415, 49);
+            this.groupBox8.TabIndex = 9;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "AÇIKLAMA";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(-1, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(17, 21);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "*";
+            // 
+            // txtAciklama
+            // 
+            this.txtAciklama.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAciklama.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txtAciklama.Location = new System.Drawing.Point(15, 24);
+            this.txtAciklama.MaxLength = 30;
+            this.txtAciklama.Name = "txtAciklama";
+            this.txtAciklama.Size = new System.Drawing.Size(385, 22);
+            this.txtAciklama.TabIndex = 9;
+            // 
+            // btnTemizle
+            // 
+            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
+            this.btnTemizle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTemizle.FlatAppearance.BorderSize = 0;
+            this.btnTemizle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTemizle.ForeColor = System.Drawing.Color.White;
+            this.btnTemizle.Location = new System.Drawing.Point(65, 263);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnTemizle.Name = "btnTemizle";
+            this.btnTemizle.Size = new System.Drawing.Size(200, 40);
+            this.btnTemizle.TabIndex = 10;
+            this.btnTemizle.Text = "TEMİZLE";
+            this.btnTemizle.UseVisualStyleBackColor = false;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
+            // 
+            // btnSonraki
+            // 
+            this.btnSonraki.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
+            this.btnSonraki.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSonraki.FlatAppearance.BorderSize = 0;
+            this.btnSonraki.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSonraki.ForeColor = System.Drawing.Color.White;
+            this.btnSonraki.Location = new System.Drawing.Point(289, 263);
+            this.btnSonraki.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSonraki.Name = "btnSonraki";
+            this.btnSonraki.Size = new System.Drawing.Size(415, 40);
+            this.btnSonraki.TabIndex = 11;
+            this.btnSonraki.Text = "SONRAKİ ADIM";
+            this.btnSonraki.UseVisualStyleBackColor = false;
+            this.btnSonraki.Click += new System.EventHandler(this.btnSonraki_Click);
+            // 
+            // lblCinsiyetKontrol
+            // 
+            this.lblCinsiyetKontrol.AutoSize = true;
+            this.lblCinsiyetKontrol.Location = new System.Drawing.Point(747, 328);
+            this.lblCinsiyetKontrol.Name = "lblCinsiyetKontrol";
+            this.lblCinsiyetKontrol.Size = new System.Drawing.Size(19, 21);
+            this.lblCinsiyetKontrol.TabIndex = 5;
+            this.lblCinsiyetKontrol.Text = "0";
+            this.lblCinsiyetKontrol.Visible = false;
+            // 
+            // frmKisiKayit
+            // 
+            this.AcceptButton = this.btnSonraki;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(778, 358);
+            this.Controls.Add(this.lblCinsiyetKontrol);
+            this.Controls.Add(this.btnSonraki);
+            this.Controls.Add(this.btnTemizle);
+            this.Controls.Add(this.groupBox8);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "frmKisiKayit";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_cıkıs;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnTemizle;
+        private System.Windows.Forms.Button btnSonraki;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label8;
+        public System.Windows.Forms.TextBox txtTcKimlik;
+        public System.Windows.Forms.TextBox txtAd;
+        public System.Windows.Forms.TextBox txtSoyad;
+        public System.Windows.Forms.MaskedTextBox txtDogumTarihi;
+        public System.Windows.Forms.MaskedTextBox txtTelNo;
+        public System.Windows.Forms.RadioButton rbKadin;
+        public System.Windows.Forms.RadioButton rbErkek;
+        public System.Windows.Forms.TextBox txtMail;
+        public System.Windows.Forms.TextBox txtAciklama;
+        public System.Windows.Forms.Label lblCinsiyetKontrol;
+    }
+}
+
