@@ -716,6 +716,7 @@
             this.btnTemizle.TabIndex = 20;
             this.btnTemizle.Text = "TEMİZLE";
             this.btnTemizle.UseVisualStyleBackColor = false;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // groupBox22
             // 
@@ -730,11 +731,16 @@
             // 
             // cikisT
             // 
+            this.cikisT.Checked = false;
+            this.cikisT.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.cikisT.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cikisT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.cikisT.Location = new System.Drawing.Point(3, 33);
             this.cikisT.Name = "cikisT";
             this.cikisT.Size = new System.Drawing.Size(221, 29);
             this.cikisT.TabIndex = 1;
+            this.cikisT.UseWaitCursor = true;
+            this.cikisT.Value = new System.DateTime(2025, 5, 3, 0, 0, 0, 0);
             // 
             // groupBox21
             // 
@@ -749,11 +755,17 @@
             // 
             // girisT
             // 
+            this.girisT.Checked = false;
+            this.girisT.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.girisT.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.girisT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.girisT.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.girisT.Location = new System.Drawing.Point(3, 33);
             this.girisT.Name = "girisT";
             this.girisT.Size = new System.Drawing.Size(219, 29);
             this.girisT.TabIndex = 0;
+            this.girisT.UseWaitCursor = true;
+            this.girisT.Value = new System.DateTime(2025, 5, 3, 0, 0, 0, 0);
             // 
             // groupBox20
             // 
@@ -1028,7 +1040,7 @@
             this.txtAciklama.Multiline = true;
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(719, 49);
-            this.txtAciklama.TabIndex = 38;
+            this.txtAciklama.TabIndex = 7;
             // 
             // groupBox15
             // 
@@ -1237,7 +1249,7 @@
             this.txtMail.MaxLength = 50;
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(217, 22);
-            this.txtMail.TabIndex = 0;
+            this.txtMail.TabIndex = 6;
             // 
             // groupBox12
             // 
@@ -1259,7 +1271,7 @@
             this.txtTelNo.Mask = "(999) 000-0000";
             this.txtTelNo.Name = "txtTelNo";
             this.txtTelNo.Size = new System.Drawing.Size(217, 22);
-            this.txtTelNo.TabIndex = 1;
+            this.txtTelNo.TabIndex = 5;
             // 
             // groupBox11
             // 
@@ -1276,10 +1288,11 @@
             // dtpDogumT
             // 
             this.dtpDogumT.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dtpDogumT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpDogumT.Location = new System.Drawing.Point(8, 35);
             this.dtpDogumT.Name = "dtpDogumT";
             this.dtpDogumT.Size = new System.Drawing.Size(217, 29);
-            this.dtpDogumT.TabIndex = 1;
+            this.dtpDogumT.TabIndex = 4;
             // 
             // groupBox10
             // 
@@ -1302,7 +1315,8 @@
             this.txtSoyad.MaxLength = 5;
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(217, 22);
-            this.txtSoyad.TabIndex = 0;
+            this.txtSoyad.TabIndex = 3;
+            this.txtSoyad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoyad_KeyPress);
             // 
             // groupBox9
             // 
@@ -1325,7 +1339,8 @@
             this.txtAd.MaxLength = 20;
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(217, 22);
-            this.txtAd.TabIndex = 0;
+            this.txtAd.TabIndex = 2;
+            this.txtAd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAd_KeyPress);
             // 
             // groupBox8
             // 
@@ -1348,7 +1363,8 @@
             this.txtUyruk.MaxLength = 20;
             this.txtUyruk.Name = "txtUyruk";
             this.txtUyruk.Size = new System.Drawing.Size(217, 22);
-            this.txtUyruk.TabIndex = 0;
+            this.txtUyruk.TabIndex = 1;
+            this.txtUyruk.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUyruk_KeyPress);
             // 
             // groupBox7
             // 
@@ -1372,6 +1388,7 @@
             this.txtTcNo.Name = "txtTcNo";
             this.txtTcNo.Size = new System.Drawing.Size(217, 22);
             this.txtTcNo.TabIndex = 0;
+            this.txtTcNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTcNo_KeyPress);
             // 
             // label1
             // 
@@ -1636,6 +1653,7 @@
             // 
             // frmOdaDetaySayfasi
             // 
+            this.AcceptButton = this.btnKaydiTamamla;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(247)))), ((int)(((byte)(254)))));

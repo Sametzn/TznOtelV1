@@ -17,5 +17,28 @@ namespace TznOtelV1
         {
             InitializeComponent();
         }
+
+        private void btnCikis_Click(object sender, EventArgs e)
+        {
+            
+            frmKonaklayanCikis detay = new frmKonaklayanCikis();
+            detay.gelenmusteritcno = lblTcNo.Text;
+            detay.ShowDialog();
+        }
+
+        private void btnDetay_Click(object sender, EventArgs e)
+        {
+            frmKonaklayanDetay detay = new frmKonaklayanDetay();
+            detay.gelenmusteritcno = lblTcNo.Text;
+            detay.ShowDialog();
+        }
+
+        private void btnUzat_Click(object sender, EventArgs e)
+        {
+            frmUzatmaEkrani detay = new frmUzatmaEkrani();
+            detay.cikistarihi = lblcikisT.Text;
+            detay.giristarihi = lblgirisT.Text;
+            detay.ShowDialog();
+        }
     }
 }

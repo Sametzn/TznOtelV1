@@ -331,6 +331,10 @@ namespace TznOtelV1
                 btnDuzenle.Visible = false;
                 btnGuncelle.Visible = true;
                 btnYeniKayit.Visible = true;
+                pnlSonAsama.Visible = false;
+                pnl_Kayit.Visible = true;
+                pnl_Listeler.Visible = true;
+
 
             }
             else
@@ -339,6 +343,7 @@ namespace TznOtelV1
                 frm.Show();
                 frm.label1.Text = "ODA FİYATI BELİRLEYİNİZ";
             }
+           
         }
 
         private void btnDuzenle_Click(object sender, EventArgs e)
@@ -354,6 +359,7 @@ namespace TznOtelV1
             frm.gelenOdaKodu = lblOdaKodu.Text;
             frm.gelenKisiTc = lblKisiTc.Text;
             frm.ShowDialog();
+            
         }
 
         private void btnYeniKayit_Click(object sender, EventArgs e)
@@ -368,6 +374,8 @@ namespace TznOtelV1
         {
             lblOtelKodu.Text = gelenOtelKodu;
             lblKisiTc.Text = gelenKisiTcNumarası;
+            odaListePaneli.Controls.Clear();
+            odaListesiGetir();
         }
 
     }

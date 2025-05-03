@@ -110,6 +110,7 @@
             this.Name = "frmKonaklayanlarListesi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmKonaklayanlarListesi";
+            this.Activated += new System.EventHandler(this.frmKonaklayanlarListesi_Activated);
             this.Load += new System.EventHandler(this.frmKonaklayanlarListesi_Load);
             this.pnlUstmenu.ResumeLayout(false);
             this.pnlUstmenu.PerformLayout();

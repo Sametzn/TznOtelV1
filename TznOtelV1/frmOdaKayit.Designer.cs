@@ -30,36 +30,6 @@
         {
             this.pnl_Kayit = new System.Windows.Forms.Panel();
             this.btnOluştur = new System.Windows.Forms.Button();
-            this.pnlSonAsama = new System.Windows.Forms.Panel();
-            this.btnYeniKayit = new System.Windows.Forms.Button();
-            this.btnGuncelle = new System.Windows.Forms.Button();
-            this.btnDuzenle = new System.Windows.Forms.Button();
-            this.btnKaydet = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtOdaAciklama = new System.Windows.Forms.TextBox();
-            this.txtOdaFiyati = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lblOdaYatakSayisi = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblOdaKodu = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblKisiTc = new System.Windows.Forms.Label();
-            this.lblOdaOzellik = new System.Windows.Forms.Label();
-            this.lblOdaDurumu = new System.Windows.Forms.Label();
-            this.lblOdaAdi = new System.Windows.Forms.Label();
-            this.lblOdaTuru = new System.Windows.Forms.Label();
-            this.lblOtelKodu = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.pb5 = new System.Windows.Forms.PictureBox();
             this.pb3 = new System.Windows.Forms.PictureBox();
@@ -97,6 +67,36 @@
             this.pnlUstmenu = new System.Windows.Forms.Panel();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pnlSonAsama = new System.Windows.Forms.Panel();
+            this.btnYeniKayit = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnDuzenle = new System.Windows.Forms.Button();
+            this.btnKaydet = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtOdaAciklama = new System.Windows.Forms.TextBox();
+            this.txtOdaFiyati = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lblOdaYatakSayisi = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblOdaKodu = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblKisiTc = new System.Windows.Forms.Label();
+            this.lblOdaOzellik = new System.Windows.Forms.Label();
+            this.lblOdaDurumu = new System.Windows.Forms.Label();
+            this.lblOdaAdi = new System.Windows.Forms.Label();
+            this.lblOdaTuru = new System.Windows.Forms.Label();
+            this.lblOtelKodu = new System.Windows.Forms.Label();
             this.pnl_Listeler = new System.Windows.Forms.Panel();
             this.odaListePaneli = new System.Windows.Forms.FlowLayoutPanel();
             this.ListeKutusu = new System.Windows.Forms.ListBox();
@@ -105,9 +105,6 @@
             this.btnKapat = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pnl_Kayit.SuspendLayout();
-            this.pnlSonAsama.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
@@ -120,6 +117,9 @@
             this.groupBox1.SuspendLayout();
             this.pnlUstmenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+            this.pnlSonAsama.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_Listeler.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -157,347 +157,6 @@
             this.btnOluştur.Text = "ODA OLUŞTUR";
             this.btnOluştur.UseVisualStyleBackColor = false;
             this.btnOluştur.Click += new System.EventHandler(this.btnOluştur_Click);
-            // 
-            // pnlSonAsama
-            // 
-            this.pnlSonAsama.Controls.Add(this.btnYeniKayit);
-            this.pnlSonAsama.Controls.Add(this.btnGuncelle);
-            this.pnlSonAsama.Controls.Add(this.btnDuzenle);
-            this.pnlSonAsama.Controls.Add(this.btnKaydet);
-            this.pnlSonAsama.Controls.Add(this.label14);
-            this.pnlSonAsama.Controls.Add(this.txtOdaAciklama);
-            this.pnlSonAsama.Controls.Add(this.txtOdaFiyati);
-            this.pnlSonAsama.Controls.Add(this.label12);
-            this.pnlSonAsama.Controls.Add(this.label13);
-            this.pnlSonAsama.Controls.Add(this.label11);
-            this.pnlSonAsama.Controls.Add(this.label10);
-            this.pnlSonAsama.Controls.Add(this.lblOdaYatakSayisi);
-            this.pnlSonAsama.Controls.Add(this.label9);
-            this.pnlSonAsama.Controls.Add(this.label7);
-            this.pnlSonAsama.Controls.Add(this.label8);
-            this.pnlSonAsama.Controls.Add(this.label6);
-            this.pnlSonAsama.Controls.Add(this.label5);
-            this.pnlSonAsama.Controls.Add(this.label4);
-            this.pnlSonAsama.Controls.Add(this.lblOdaKodu);
-            this.pnlSonAsama.Controls.Add(this.panel2);
-            this.pnlSonAsama.Controls.Add(this.lblKisiTc);
-            this.pnlSonAsama.Controls.Add(this.lblOdaOzellik);
-            this.pnlSonAsama.Controls.Add(this.lblOdaDurumu);
-            this.pnlSonAsama.Controls.Add(this.lblOdaAdi);
-            this.pnlSonAsama.Controls.Add(this.lblOdaTuru);
-            this.pnlSonAsama.Controls.Add(this.lblOtelKodu);
-            this.pnlSonAsama.Location = new System.Drawing.Point(317, 68);
-            this.pnlSonAsama.Name = "pnlSonAsama";
-            this.pnlSonAsama.Size = new System.Drawing.Size(596, 536);
-            this.pnlSonAsama.TabIndex = 2;
-            this.pnlSonAsama.Visible = false;
-            // 
-            // btnYeniKayit
-            // 
-            this.btnYeniKayit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
-            this.btnYeniKayit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnYeniKayit.ForeColor = System.Drawing.Color.White;
-            this.btnYeniKayit.Location = new System.Drawing.Point(337, 435);
-            this.btnYeniKayit.Name = "btnYeniKayit";
-            this.btnYeniKayit.Size = new System.Drawing.Size(139, 40);
-            this.btnYeniKayit.TabIndex = 29;
-            this.btnYeniKayit.Text = "YENİ KAYIT";
-            this.btnYeniKayit.UseVisualStyleBackColor = false;
-            this.btnYeniKayit.Visible = false;
-            this.btnYeniKayit.Click += new System.EventHandler(this.btnYeniKayit_Click);
-            // 
-            // btnGuncelle
-            // 
-            this.btnGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(167)))), ((int)(((byte)(75)))));
-            this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuncelle.ForeColor = System.Drawing.Color.White;
-            this.btnGuncelle.Location = new System.Drawing.Point(192, 435);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(139, 40);
-            this.btnGuncelle.TabIndex = 28;
-            this.btnGuncelle.Text = "GÜNCELLE";
-            this.btnGuncelle.UseVisualStyleBackColor = false;
-            this.btnGuncelle.Visible = false;
-            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
-            // 
-            // btnDuzenle
-            // 
-            this.btnDuzenle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
-            this.btnDuzenle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDuzenle.ForeColor = System.Drawing.Color.White;
-            this.btnDuzenle.Location = new System.Drawing.Point(337, 435);
-            this.btnDuzenle.Name = "btnDuzenle";
-            this.btnDuzenle.Size = new System.Drawing.Size(139, 40);
-            this.btnDuzenle.TabIndex = 27;
-            this.btnDuzenle.Text = "DÜZENLE";
-            this.btnDuzenle.UseVisualStyleBackColor = false;
-            this.btnDuzenle.Click += new System.EventHandler(this.btnDuzenle_Click);
-            // 
-            // btnKaydet
-            // 
-            this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(167)))), ((int)(((byte)(75)))));
-            this.btnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKaydet.ForeColor = System.Drawing.Color.White;
-            this.btnKaydet.Location = new System.Drawing.Point(191, 435);
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(139, 40);
-            this.btnKaydet.TabIndex = 26;
-            this.btnKaydet.Text = "KAYDET";
-            this.btnKaydet.UseVisualStyleBackColor = false;
-            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label14.Location = new System.Drawing.Point(55, 343);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(133, 21);
-            this.label14.TabIndex = 25;
-            this.label14.Text = "ODA AÇIKLAMA:";
-            // 
-            // txtOdaAciklama
-            // 
-            this.txtOdaAciklama.BackColor = System.Drawing.Color.Khaki;
-            this.txtOdaAciklama.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtOdaAciklama.ForeColor = System.Drawing.Color.Black;
-            this.txtOdaAciklama.Location = new System.Drawing.Point(191, 348);
-            this.txtOdaAciklama.Multiline = true;
-            this.txtOdaAciklama.Name = "txtOdaAciklama";
-            this.txtOdaAciklama.Size = new System.Drawing.Size(285, 81);
-            this.txtOdaAciklama.TabIndex = 24;
-            // 
-            // txtOdaFiyati
-            // 
-            this.txtOdaFiyati.BackColor = System.Drawing.Color.Khaki;
-            this.txtOdaFiyati.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtOdaFiyati.ForeColor = System.Drawing.Color.Black;
-            this.txtOdaFiyati.Location = new System.Drawing.Point(191, 317);
-            this.txtOdaFiyati.Name = "txtOdaFiyati";
-            this.txtOdaFiyati.Size = new System.Drawing.Size(77, 22);
-            this.txtOdaFiyati.TabIndex = 23;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label12.Location = new System.Drawing.Point(91, 317);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(97, 21);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "ODA FİYATI:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(274, 317);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(100, 21);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "TL(*kişi başı)";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label11.Location = new System.Drawing.Point(45, 270);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(143, 21);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "ODA ÖZELLİKLERİ:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label10.Location = new System.Drawing.Point(95, 246);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 21);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "ODA TÜRÜ:";
-            // 
-            // lblOdaYatakSayisi
-            // 
-            this.lblOdaYatakSayisi.AutoSize = true;
-            this.lblOdaYatakSayisi.Location = new System.Drawing.Point(187, 194);
-            this.lblOdaYatakSayisi.Name = "lblOdaYatakSayisi";
-            this.lblOdaYatakSayisi.Size = new System.Drawing.Size(16, 21);
-            this.lblOdaYatakSayisi.TabIndex = 6;
-            this.lblOdaYatakSayisi.Text = "1";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label9.Location = new System.Drawing.Point(67, 222);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(121, 21);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "ODA DURUMU:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label7.Location = new System.Drawing.Point(109, 171);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 21);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "ODA ADI:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label8.Location = new System.Drawing.Point(76, 196);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(112, 21);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "YATAK SAYISI:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label6.Location = new System.Drawing.Point(26, 144);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 21);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "OLUŞTURAN KİŞİ TC:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label5.Location = new System.Drawing.Point(91, 117);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 21);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "OTEL KODU:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.label4.Location = new System.Drawing.Point(93, 90);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 21);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "ODA KODU:";
-            // 
-            // lblOdaKodu
-            // 
-            this.lblOdaKodu.AutoSize = true;
-            this.lblOdaKodu.Location = new System.Drawing.Point(187, 90);
-            this.lblOdaKodu.Name = "lblOdaKodu";
-            this.lblOdaKodu.Size = new System.Drawing.Size(97, 21);
-            this.lblOdaKodu.TabIndex = 12;
-            this.lblOdaKodu.Text = "lblOdaKodu";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(167)))), ((int)(((byte)(75)))));
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(596, 48);
-            this.panel2.TabIndex = 4;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::TznOtelV1.Properties.Resources.list;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 36);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(548, 0);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(48, 48);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "X";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click_1);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(54, 11);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(311, 25);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "ODA KAYIT TAMAMLAMA EKRANI";
-            // 
-            // lblKisiTc
-            // 
-            this.lblKisiTc.AutoSize = true;
-            this.lblKisiTc.Location = new System.Drawing.Point(187, 142);
-            this.lblKisiTc.Name = "lblKisiTc";
-            this.lblKisiTc.Size = new System.Drawing.Size(68, 21);
-            this.lblKisiTc.TabIndex = 8;
-            this.lblKisiTc.Text = "lblKisiTc";
-            // 
-            // lblOdaOzellik
-            // 
-            this.lblOdaOzellik.Location = new System.Drawing.Point(187, 270);
-            this.lblOdaOzellik.Name = "lblOdaOzellik";
-            this.lblOdaOzellik.Size = new System.Drawing.Size(358, 86);
-            this.lblOdaOzellik.TabIndex = 10;
-            this.lblOdaOzellik.Text = "lblOdaOzellik";
-            // 
-            // lblOdaDurumu
-            // 
-            this.lblOdaDurumu.AutoSize = true;
-            this.lblOdaDurumu.Location = new System.Drawing.Point(187, 222);
-            this.lblOdaDurumu.Name = "lblOdaDurumu";
-            this.lblOdaDurumu.Size = new System.Drawing.Size(116, 21);
-            this.lblOdaDurumu.TabIndex = 4;
-            this.lblOdaDurumu.Text = "lblOdaDurumu";
-            // 
-            // lblOdaAdi
-            // 
-            this.lblOdaAdi.AutoSize = true;
-            this.lblOdaAdi.Location = new System.Drawing.Point(187, 171);
-            this.lblOdaAdi.Name = "lblOdaAdi";
-            this.lblOdaAdi.Size = new System.Drawing.Size(83, 21);
-            this.lblOdaAdi.TabIndex = 9;
-            this.lblOdaAdi.Text = "lblOdaAdi";
-            // 
-            // lblOdaTuru
-            // 
-            this.lblOdaTuru.AutoSize = true;
-            this.lblOdaTuru.Location = new System.Drawing.Point(187, 246);
-            this.lblOdaTuru.Name = "lblOdaTuru";
-            this.lblOdaTuru.Size = new System.Drawing.Size(90, 21);
-            this.lblOdaTuru.TabIndex = 5;
-            this.lblOdaTuru.Text = "lblOdaTuru";
-            // 
-            // lblOtelKodu
-            // 
-            this.lblOtelKodu.AutoSize = true;
-            this.lblOtelKodu.Location = new System.Drawing.Point(187, 117);
-            this.lblOtelKodu.Name = "lblOtelKodu";
-            this.lblOtelKodu.Size = new System.Drawing.Size(98, 21);
-            this.lblOtelKodu.TabIndex = 7;
-            this.lblOtelKodu.Text = "lblOtelKodu";
             // 
             // groupBox5
             // 
@@ -1044,6 +703,347 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ODA KAYIT EKRANI";
             // 
+            // pnlSonAsama
+            // 
+            this.pnlSonAsama.Controls.Add(this.btnYeniKayit);
+            this.pnlSonAsama.Controls.Add(this.btnGuncelle);
+            this.pnlSonAsama.Controls.Add(this.btnDuzenle);
+            this.pnlSonAsama.Controls.Add(this.btnKaydet);
+            this.pnlSonAsama.Controls.Add(this.label14);
+            this.pnlSonAsama.Controls.Add(this.txtOdaAciklama);
+            this.pnlSonAsama.Controls.Add(this.txtOdaFiyati);
+            this.pnlSonAsama.Controls.Add(this.label12);
+            this.pnlSonAsama.Controls.Add(this.label13);
+            this.pnlSonAsama.Controls.Add(this.label11);
+            this.pnlSonAsama.Controls.Add(this.label10);
+            this.pnlSonAsama.Controls.Add(this.lblOdaYatakSayisi);
+            this.pnlSonAsama.Controls.Add(this.label9);
+            this.pnlSonAsama.Controls.Add(this.label7);
+            this.pnlSonAsama.Controls.Add(this.label8);
+            this.pnlSonAsama.Controls.Add(this.label6);
+            this.pnlSonAsama.Controls.Add(this.label5);
+            this.pnlSonAsama.Controls.Add(this.label4);
+            this.pnlSonAsama.Controls.Add(this.lblOdaKodu);
+            this.pnlSonAsama.Controls.Add(this.panel2);
+            this.pnlSonAsama.Controls.Add(this.lblKisiTc);
+            this.pnlSonAsama.Controls.Add(this.lblOdaOzellik);
+            this.pnlSonAsama.Controls.Add(this.lblOdaDurumu);
+            this.pnlSonAsama.Controls.Add(this.lblOdaAdi);
+            this.pnlSonAsama.Controls.Add(this.lblOdaTuru);
+            this.pnlSonAsama.Controls.Add(this.lblOtelKodu);
+            this.pnlSonAsama.Location = new System.Drawing.Point(317, 68);
+            this.pnlSonAsama.Name = "pnlSonAsama";
+            this.pnlSonAsama.Size = new System.Drawing.Size(596, 536);
+            this.pnlSonAsama.TabIndex = 2;
+            this.pnlSonAsama.Visible = false;
+            // 
+            // btnYeniKayit
+            // 
+            this.btnYeniKayit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
+            this.btnYeniKayit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYeniKayit.ForeColor = System.Drawing.Color.White;
+            this.btnYeniKayit.Location = new System.Drawing.Point(337, 435);
+            this.btnYeniKayit.Name = "btnYeniKayit";
+            this.btnYeniKayit.Size = new System.Drawing.Size(139, 40);
+            this.btnYeniKayit.TabIndex = 29;
+            this.btnYeniKayit.Text = "YENİ KAYIT";
+            this.btnYeniKayit.UseVisualStyleBackColor = false;
+            this.btnYeniKayit.Visible = false;
+            this.btnYeniKayit.Click += new System.EventHandler(this.btnYeniKayit_Click);
+            // 
+            // btnGuncelle
+            // 
+            this.btnGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(167)))), ((int)(((byte)(75)))));
+            this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuncelle.ForeColor = System.Drawing.Color.White;
+            this.btnGuncelle.Location = new System.Drawing.Point(192, 435);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(139, 40);
+            this.btnGuncelle.TabIndex = 28;
+            this.btnGuncelle.Text = "GÜNCELLE";
+            this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Visible = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
+            // 
+            // btnDuzenle
+            // 
+            this.btnDuzenle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
+            this.btnDuzenle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDuzenle.ForeColor = System.Drawing.Color.White;
+            this.btnDuzenle.Location = new System.Drawing.Point(337, 435);
+            this.btnDuzenle.Name = "btnDuzenle";
+            this.btnDuzenle.Size = new System.Drawing.Size(139, 40);
+            this.btnDuzenle.TabIndex = 27;
+            this.btnDuzenle.Text = "DÜZENLE";
+            this.btnDuzenle.UseVisualStyleBackColor = false;
+            this.btnDuzenle.Click += new System.EventHandler(this.btnDuzenle_Click);
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(167)))), ((int)(((byte)(75)))));
+            this.btnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKaydet.ForeColor = System.Drawing.Color.White;
+            this.btnKaydet.Location = new System.Drawing.Point(191, 435);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(139, 40);
+            this.btnKaydet.TabIndex = 26;
+            this.btnKaydet.Text = "KAYDET";
+            this.btnKaydet.UseVisualStyleBackColor = false;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label14.Location = new System.Drawing.Point(55, 343);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(133, 21);
+            this.label14.TabIndex = 25;
+            this.label14.Text = "ODA AÇIKLAMA:";
+            // 
+            // txtOdaAciklama
+            // 
+            this.txtOdaAciklama.BackColor = System.Drawing.Color.Khaki;
+            this.txtOdaAciklama.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtOdaAciklama.ForeColor = System.Drawing.Color.Black;
+            this.txtOdaAciklama.Location = new System.Drawing.Point(191, 348);
+            this.txtOdaAciklama.Multiline = true;
+            this.txtOdaAciklama.Name = "txtOdaAciklama";
+            this.txtOdaAciklama.Size = new System.Drawing.Size(285, 81);
+            this.txtOdaAciklama.TabIndex = 24;
+            // 
+            // txtOdaFiyati
+            // 
+            this.txtOdaFiyati.BackColor = System.Drawing.Color.Khaki;
+            this.txtOdaFiyati.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtOdaFiyati.ForeColor = System.Drawing.Color.Black;
+            this.txtOdaFiyati.Location = new System.Drawing.Point(191, 317);
+            this.txtOdaFiyati.Name = "txtOdaFiyati";
+            this.txtOdaFiyati.Size = new System.Drawing.Size(77, 22);
+            this.txtOdaFiyati.TabIndex = 23;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label12.Location = new System.Drawing.Point(91, 317);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(97, 21);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "ODA FİYATI:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(274, 317);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(100, 21);
+            this.label13.TabIndex = 21;
+            this.label13.Text = "TL(*kişi başı)";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label11.Location = new System.Drawing.Point(45, 270);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(143, 21);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "ODA ÖZELLİKLERİ:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label10.Location = new System.Drawing.Point(95, 246);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(93, 21);
+            this.label10.TabIndex = 19;
+            this.label10.Text = "ODA TÜRÜ:";
+            // 
+            // lblOdaYatakSayisi
+            // 
+            this.lblOdaYatakSayisi.AutoSize = true;
+            this.lblOdaYatakSayisi.Location = new System.Drawing.Point(187, 194);
+            this.lblOdaYatakSayisi.Name = "lblOdaYatakSayisi";
+            this.lblOdaYatakSayisi.Size = new System.Drawing.Size(16, 21);
+            this.lblOdaYatakSayisi.TabIndex = 6;
+            this.lblOdaYatakSayisi.Text = "1";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label9.Location = new System.Drawing.Point(67, 222);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(121, 21);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "ODA DURUMU:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label7.Location = new System.Drawing.Point(109, 171);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 21);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "ODA ADI:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label8.Location = new System.Drawing.Point(76, 196);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(112, 21);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "YATAK SAYISI:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label6.Location = new System.Drawing.Point(26, 144);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(162, 21);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "OLUŞTURAN KİŞİ TC:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label5.Location = new System.Drawing.Point(91, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(97, 21);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "OTEL KODU:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.label4.Location = new System.Drawing.Point(93, 90);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(95, 21);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "ODA KODU:";
+            // 
+            // lblOdaKodu
+            // 
+            this.lblOdaKodu.AutoSize = true;
+            this.lblOdaKodu.Location = new System.Drawing.Point(187, 90);
+            this.lblOdaKodu.Name = "lblOdaKodu";
+            this.lblOdaKodu.Size = new System.Drawing.Size(97, 21);
+            this.lblOdaKodu.TabIndex = 12;
+            this.lblOdaKodu.Text = "lblOdaKodu";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(167)))), ((int)(((byte)(75)))));
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(596, 48);
+            this.panel2.TabIndex = 4;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::TznOtelV1.Properties.Resources.list;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(548, 0);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(48, 48);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "X";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(54, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(311, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "ODA KAYIT TAMAMLAMA EKRANI";
+            // 
+            // lblKisiTc
+            // 
+            this.lblKisiTc.AutoSize = true;
+            this.lblKisiTc.Location = new System.Drawing.Point(187, 142);
+            this.lblKisiTc.Name = "lblKisiTc";
+            this.lblKisiTc.Size = new System.Drawing.Size(68, 21);
+            this.lblKisiTc.TabIndex = 8;
+            this.lblKisiTc.Text = "lblKisiTc";
+            // 
+            // lblOdaOzellik
+            // 
+            this.lblOdaOzellik.Location = new System.Drawing.Point(187, 270);
+            this.lblOdaOzellik.Name = "lblOdaOzellik";
+            this.lblOdaOzellik.Size = new System.Drawing.Size(358, 86);
+            this.lblOdaOzellik.TabIndex = 10;
+            this.lblOdaOzellik.Text = "lblOdaOzellik";
+            // 
+            // lblOdaDurumu
+            // 
+            this.lblOdaDurumu.AutoSize = true;
+            this.lblOdaDurumu.Location = new System.Drawing.Point(187, 222);
+            this.lblOdaDurumu.Name = "lblOdaDurumu";
+            this.lblOdaDurumu.Size = new System.Drawing.Size(116, 21);
+            this.lblOdaDurumu.TabIndex = 4;
+            this.lblOdaDurumu.Text = "lblOdaDurumu";
+            // 
+            // lblOdaAdi
+            // 
+            this.lblOdaAdi.AutoSize = true;
+            this.lblOdaAdi.Location = new System.Drawing.Point(187, 171);
+            this.lblOdaAdi.Name = "lblOdaAdi";
+            this.lblOdaAdi.Size = new System.Drawing.Size(83, 21);
+            this.lblOdaAdi.TabIndex = 9;
+            this.lblOdaAdi.Text = "lblOdaAdi";
+            // 
+            // lblOdaTuru
+            // 
+            this.lblOdaTuru.AutoSize = true;
+            this.lblOdaTuru.Location = new System.Drawing.Point(187, 246);
+            this.lblOdaTuru.Name = "lblOdaTuru";
+            this.lblOdaTuru.Size = new System.Drawing.Size(90, 21);
+            this.lblOdaTuru.TabIndex = 5;
+            this.lblOdaTuru.Text = "lblOdaTuru";
+            // 
+            // lblOtelKodu
+            // 
+            this.lblOtelKodu.AutoSize = true;
+            this.lblOtelKodu.Location = new System.Drawing.Point(187, 117);
+            this.lblOtelKodu.Name = "lblOtelKodu";
+            this.lblOtelKodu.Size = new System.Drawing.Size(98, 21);
+            this.lblOtelKodu.TabIndex = 7;
+            this.lblOtelKodu.Text = "lblOtelKodu";
+            // 
             // pnl_Listeler
             // 
             this.pnl_Listeler.Controls.Add(this.odaListePaneli);
@@ -1143,11 +1143,6 @@
             this.Activated += new System.EventHandler(this.frmOdaKayit_Activated);
             this.Load += new System.EventHandler(this.frmOdaKayit_Load);
             this.pnl_Kayit.ResumeLayout(false);
-            this.pnlSonAsama.ResumeLayout(false);
-            this.pnlSonAsama.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
@@ -1164,6 +1159,11 @@
             this.pnlUstmenu.ResumeLayout(false);
             this.pnlUstmenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
+            this.pnlSonAsama.ResumeLayout(false);
+            this.pnlSonAsama.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_Listeler.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

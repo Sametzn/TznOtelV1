@@ -82,6 +82,18 @@
     <Compile Include="frmKodOlustur.Designer.cs">
       <DependentUpon>frmKodOlustur.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmKonaklayanCikis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKonaklayanCikis.Designer.cs">
+      <DependentUpon>frmKonaklayanCikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKonaklayanDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKonaklayanDetay.Designer.cs">
+      <DependentUpon>frmKonaklayanDetay.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmKonaklayanlarListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +190,12 @@
     <Compile Include="frmPopupmenu.Designer.cs">
       <DependentUpon>frmPopupmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUzatmaEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUzatmaEkrani.Designer.cs">
+      <DependentUpon>frmUzatmaEkrani.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmYetki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +246,12 @@
     <EmbeddedResource Include="frmKodOlustur.resx">
       <DependentUpon>frmKodOlustur.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmKonaklayanCikis.resx">
+      <DependentUpon>frmKonaklayanCikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKonaklayanDetay.resx">
+      <DependentUpon>frmKonaklayanDetay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmKonaklayanlarListesi.resx">
       <DependentUpon>frmKonaklayanlarListesi.cs</DependentUpon>
     </EmbeddedResource>
@@ -275,6 +299,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPopupmenu.resx">
       <DependentUpon>frmPopupmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUzatmaEkrani.resx">
+      <DependentUpon>frmUzatmaEkrani.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmYetki.resx">
       <DependentUpon>frmYetki.cs</DependentUpon>

@@ -30,6 +30,7 @@ namespace TznOtelV1
             int yatakSayisi = int.Parse(yatakSayisiString);
             yatakOlustur();
             YataklariGetir(gelenOdaKodu);
+            txtTcNo.Focus();
 
 
         }
@@ -334,8 +335,8 @@ namespace TznOtelV1
        
         private void btnKaydiTamamla_Click(object sender, EventArgs e)
         {
-            DateTime girisTarihi = girisT.Value.Date;
-            DateTime cikisTarihi = cikisT.Value.Date;
+            DateTime girisTarihi = girisT.Value;
+            DateTime cikisTarihi = cikisT.Value;
             DateTime bugun = DateTime.Today;
             DateTime dogumTarihi = dtpDogumT.Value;
             int yas = bugun.Year - dogumTarihi.Year;
@@ -378,6 +379,7 @@ namespace TznOtelV1
                                                 int yatakSayisi = int.Parse(yatakSayisiString);
                                                 yatakOlustur();
                                                 YataklariGetir(gelenOdaKodu);
+                                                temizle();
                                             }
                                             else
                                             {
@@ -474,8 +476,8 @@ namespace TznOtelV1
             komut.Parameters.AddWithValue("@odaNo", txtOdaNumara.Text);
             komut.Parameters.AddWithValue("@kisiTc", txtTcNo.Text);
             komut.Parameters.AddWithValue("@kisiUyruk", txtUyruk.Text);
-            komut.Parameters.AddWithValue("@kisiAd", txtAd.Text);
-            komut.Parameters.AddWithValue("@kisiSoyad", txtSoyad.Text);
+            komut.Parameters.AddWithValue("@kisiAd", txtAd.Text.ToUpper());
+            komut.Parameters.AddWithValue("@kisiSoyad", txtSoyad.Text.ToUpper());
             komut.Parameters.AddWithValue("@kisiDogumT", dtpDogumT.Text);
             komut.Parameters.AddWithValue("@kisiTel", txtTelNo.Text);
             komut.Parameters.AddWithValue("@kisiMail", txtMail.Text);
@@ -529,7 +531,7 @@ namespace TznOtelV1
             }
             komut.Parameters.AddWithValue("@girisT", girisT.Text);
             komut.Parameters.AddWithValue("@cikisT", cikisT.Text);
-            komut.Parameters.AddWithValue("@aciklama", txtAciklama.Text);
+            komut.Parameters.AddWithValue("@aciklama", txtAciklama.Text.ToUpper());
             komut.Parameters.AddWithValue("@seciliYatakNo", lblSeciliYatakNo.Text);
             komut.ExecuteNonQuery();
             frmPopupmenu frm = new frmPopupmenu();
@@ -703,6 +705,56 @@ namespace TznOtelV1
             }
         }
 
+        private void txtTcNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
 
+        private void txtUyruk_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar);
+        }
+
+        private void txtAd_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar);
+        }
+
+        private void txtSoyad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar);
+        }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
+            temizle();
+        }
+        void temizle()
+        {
+            txtTcNo.Text = "";
+            txtUyruk.Text = "";
+            txtAd.Text = "";
+            txtSoyad.Text = "";
+            txtMail.Text = "";
+            txtTelNo.Text = "";
+            txtAciklama.Text = "";
+            flpYataklar.Controls.Clear();
+            yatakOlustur();
+            pb1.Visible = false;
+            pb2.Visible = false;
+            pb3.Visible = false;
+            pb4.Visible = false;
+            pb5.Visible = false;
+            pb6.Visible = false;
+            pb7.Visible = false;
+            pb10.Visible = false;
+            pb11.Visible = false;
+            pb12.Visible = false;
+            pb13.Visible = false;
+            dtpDogumT.Value = DateTime.Today;
+            girisT.Value = DateTime.Today;
+            cikisT.Value = DateTime.Today;
+            txtTcNo.Focus();
+        }
     }
 }
