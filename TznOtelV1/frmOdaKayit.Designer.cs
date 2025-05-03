@@ -31,15 +31,10 @@
             this.pnl_Kayit = new System.Windows.Forms.Panel();
             this.btnOluştur = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.pb5 = new System.Windows.Forms.PictureBox();
-            this.pb3 = new System.Windows.Forms.PictureBox();
-            this.pb4 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pb2 = new System.Windows.Forms.PictureBox();
-            this.pb1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -65,7 +60,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtOdaAdi = new System.Windows.Forms.TextBox();
             this.pnlUstmenu = new System.Windows.Forms.Panel();
-            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlSonAsama = new System.Windows.Forms.Panel();
             this.btnYeniKayit = new System.Windows.Forms.Button();
@@ -88,7 +82,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.lblOdaKodu = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.lblKisiTc = new System.Windows.Forms.Label();
@@ -101,28 +94,35 @@
             this.odaListePaneli = new System.Windows.Forms.FlowLayoutPanel();
             this.ListeKutusu = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnKapat = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pb5 = new System.Windows.Forms.PictureBox();
+            this.pb3 = new System.Windows.Forms.PictureBox();
+            this.pb4 = new System.Windows.Forms.PictureBox();
+            this.pb2 = new System.Windows.Forms.PictureBox();
+            this.pb1 = new System.Windows.Forms.PictureBox();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.pnl_Kayit.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.pnlUstmenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.pnlSonAsama.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_Listeler.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_Kayit
@@ -173,42 +173,6 @@
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "ODA TÜRÜ";
-            // 
-            // pb5
-            // 
-            this.pb5.BackColor = System.Drawing.Color.Black;
-            this.pb5.Image = global::TznOtelV1.Properties.Resources.ok;
-            this.pb5.Location = new System.Drawing.Point(192, 88);
-            this.pb5.Name = "pb5";
-            this.pb5.Size = new System.Drawing.Size(29, 24);
-            this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb5.TabIndex = 10;
-            this.pb5.TabStop = false;
-            this.pb5.Visible = false;
-            // 
-            // pb3
-            // 
-            this.pb3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
-            this.pb3.Image = global::TznOtelV1.Properties.Resources.ok;
-            this.pb3.Location = new System.Drawing.Point(192, 26);
-            this.pb3.Name = "pb3";
-            this.pb3.Size = new System.Drawing.Size(29, 24);
-            this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb3.TabIndex = 8;
-            this.pb3.TabStop = false;
-            this.pb3.Visible = false;
-            // 
-            // pb4
-            // 
-            this.pb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
-            this.pb4.Image = global::TznOtelV1.Properties.Resources.ok;
-            this.pb4.Location = new System.Drawing.Point(192, 57);
-            this.pb4.Name = "pb4";
-            this.pb4.Size = new System.Drawing.Size(29, 24);
-            this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb4.TabIndex = 9;
-            this.pb4.TabStop = false;
-            this.pb4.Visible = false;
             // 
             // button5
             // 
@@ -280,30 +244,6 @@
             this.groupBox4.TabIndex = 11;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "ODA DURUMU";
-            // 
-            // pb2
-            // 
-            this.pb2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
-            this.pb2.Image = global::TznOtelV1.Properties.Resources.ok;
-            this.pb2.Location = new System.Drawing.Point(192, 62);
-            this.pb2.Name = "pb2";
-            this.pb2.Size = new System.Drawing.Size(29, 24);
-            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb2.TabIndex = 7;
-            this.pb2.TabStop = false;
-            this.pb2.Visible = false;
-            // 
-            // pb1
-            // 
-            this.pb1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
-            this.pb1.Image = global::TznOtelV1.Properties.Resources.ok;
-            this.pb1.Location = new System.Drawing.Point(192, 31);
-            this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(29, 24);
-            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb1.TabIndex = 6;
-            this.pb1.TabStop = false;
-            this.pb1.Visible = false;
             // 
             // button2
             // 
@@ -384,9 +324,9 @@
             this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox8.Location = new System.Drawing.Point(11, 103);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(99, 25);
+            this.checkBox8.Size = new System.Drawing.Size(75, 25);
             this.checkBox8.TabIndex = 6;
-            this.checkBox8.Text = "ÖZELLİK 7";
+            this.checkBox8.Text = "KLİMA";
             this.checkBox8.UseVisualStyleBackColor = true;
             this.checkBox8.Click += new System.EventHandler(this.cbClick);
             this.checkBox8.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -399,9 +339,9 @@
             this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox6.Location = new System.Drawing.Point(125, 77);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(99, 25);
+            this.checkBox6.Size = new System.Drawing.Size(74, 25);
             this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "ÖZELLİK 6";
+            this.checkBox6.Text = "KÜVET";
             this.checkBox6.UseVisualStyleBackColor = true;
             this.checkBox6.Click += new System.EventHandler(this.cbClick);
             this.checkBox6.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -414,9 +354,9 @@
             this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox5.Location = new System.Drawing.Point(11, 77);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(99, 25);
+            this.checkBox5.Size = new System.Drawing.Size(98, 25);
             this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "ÖZELLİK 5";
+            this.checkBox5.Text = "MİNİ BAR";
             this.checkBox5.UseVisualStyleBackColor = true;
             this.checkBox5.Click += new System.EventHandler(this.cbClick);
             this.checkBox5.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -429,9 +369,9 @@
             this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox4.Location = new System.Drawing.Point(125, 50);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(99, 25);
+            this.checkBox4.Size = new System.Drawing.Size(105, 25);
             this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "ÖZELLİK 4";
+            this.checkBox4.Text = "GARDIROP";
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.Click += new System.EventHandler(this.cbClick);
             this.checkBox4.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -444,9 +384,9 @@
             this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox3.Location = new System.Drawing.Point(11, 50);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(99, 25);
+            this.checkBox3.Size = new System.Drawing.Size(63, 25);
             this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "ÖZELLİK 3";
+            this.checkBox3.Text = "Wi-Fi";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.Click += new System.EventHandler(this.cbClick);
             this.checkBox3.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -459,9 +399,9 @@
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox2.Location = new System.Drawing.Point(125, 23);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(99, 25);
+            this.checkBox2.Size = new System.Drawing.Size(108, 25);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "ÖZELLİK 2";
+            this.checkBox2.Text = "ÖZEL KASA";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.Click += new System.EventHandler(this.cbClick);
             this.checkBox2.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -474,9 +414,9 @@
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Location = new System.Drawing.Point(11, 23);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(96, 25);
+            this.checkBox1.Size = new System.Drawing.Size(116, 25);
             this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "ÖZELLİK 1";
+            this.checkBox1.Text = "TELEVİZYON";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.Click += new System.EventHandler(this.cbClick);
             this.checkBox1.MouseLeave += new System.EventHandler(this.cbLeave);
@@ -680,17 +620,6 @@
             this.pnlUstmenu.Name = "pnlUstmenu";
             this.pnlUstmenu.Size = new System.Drawing.Size(274, 48);
             this.pnlUstmenu.TabIndex = 3;
-            // 
-            // pbLogo
-            // 
-            this.pbLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbLogo.Image = global::TznOtelV1.Properties.Resources.room;
-            this.pbLogo.Location = new System.Drawing.Point(12, 6);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(36, 36);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbLogo.TabIndex = 2;
-            this.pbLogo.TabStop = false;
             // 
             // label1
             // 
@@ -952,17 +881,6 @@
             this.panel2.Size = new System.Drawing.Size(596, 48);
             this.panel2.TabIndex = 4;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::TznOtelV1.Properties.Resources.list;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 36);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
@@ -1086,17 +1004,6 @@
             this.panel1.Size = new System.Drawing.Size(876, 48);
             this.panel1.TabIndex = 3;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::TznOtelV1.Properties.Resources.list;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(36, 36);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnKapat
             // 
             this.btnKapat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
@@ -1125,6 +1032,99 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "ODA LİSTESİ";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::TznOtelV1.Properties.Resources.list;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::TznOtelV1.Properties.Resources.list;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pb5
+            // 
+            this.pb5.BackColor = System.Drawing.Color.Black;
+            this.pb5.Image = global::TznOtelV1.Properties.Resources.ok;
+            this.pb5.Location = new System.Drawing.Point(192, 88);
+            this.pb5.Name = "pb5";
+            this.pb5.Size = new System.Drawing.Size(29, 24);
+            this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb5.TabIndex = 10;
+            this.pb5.TabStop = false;
+            this.pb5.Visible = false;
+            // 
+            // pb3
+            // 
+            this.pb3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
+            this.pb3.Image = global::TznOtelV1.Properties.Resources.ok;
+            this.pb3.Location = new System.Drawing.Point(192, 26);
+            this.pb3.Name = "pb3";
+            this.pb3.Size = new System.Drawing.Size(29, 24);
+            this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb3.TabIndex = 8;
+            this.pb3.TabStop = false;
+            this.pb3.Visible = false;
+            // 
+            // pb4
+            // 
+            this.pb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
+            this.pb4.Image = global::TznOtelV1.Properties.Resources.ok;
+            this.pb4.Location = new System.Drawing.Point(192, 57);
+            this.pb4.Name = "pb4";
+            this.pb4.Size = new System.Drawing.Size(29, 24);
+            this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb4.TabIndex = 9;
+            this.pb4.TabStop = false;
+            this.pb4.Visible = false;
+            // 
+            // pb2
+            // 
+            this.pb2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
+            this.pb2.Image = global::TznOtelV1.Properties.Resources.ok;
+            this.pb2.Location = new System.Drawing.Point(192, 62);
+            this.pb2.Name = "pb2";
+            this.pb2.Size = new System.Drawing.Size(29, 24);
+            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb2.TabIndex = 7;
+            this.pb2.TabStop = false;
+            this.pb2.Visible = false;
+            // 
+            // pb1
+            // 
+            this.pb1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(178)))), ((int)(((byte)(123)))));
+            this.pb1.Image = global::TznOtelV1.Properties.Resources.ok;
+            this.pb1.Location = new System.Drawing.Point(192, 31);
+            this.pb1.Name = "pb1";
+            this.pb1.Size = new System.Drawing.Size(29, 24);
+            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb1.TabIndex = 6;
+            this.pb1.TabStop = false;
+            this.pb1.Visible = false;
+            // 
+            // pbLogo
+            // 
+            this.pbLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbLogo.Image = global::TznOtelV1.Properties.Resources.room;
+            this.pbLogo.Location = new System.Drawing.Point(12, 6);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(36, 36);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbLogo.TabIndex = 2;
+            this.pbLogo.TabStop = false;
+            // 
             // frmOdaKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -1144,12 +1144,7 @@
             this.Load += new System.EventHandler(this.frmOdaKayit_Load);
             this.pnl_Kayit.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -1158,16 +1153,21 @@
             this.groupBox1.PerformLayout();
             this.pnlUstmenu.ResumeLayout(false);
             this.pnlUstmenu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.pnlSonAsama.ResumeLayout(false);
             this.pnlSonAsama.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_Listeler.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
 
         }

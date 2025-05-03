@@ -203,9 +203,9 @@
             this.rbSoru3.AutoSize = true;
             this.rbSoru3.Location = new System.Drawing.Point(18, 73);
             this.rbSoru3.Name = "rbSoru3";
-            this.rbSoru3.Size = new System.Drawing.Size(83, 25);
+            this.rbSoru3.Size = new System.Drawing.Size(191, 25);
             this.rbSoru3.TabIndex = 5;
-            this.rbSoru3.Text = "SORU 3";
+            this.rbSoru3.Text = "EN SEVDİĞİNİZ YEMEK";
             this.rbSoru3.UseVisualStyleBackColor = true;
             this.rbSoru3.CheckedChanged += new System.EventHandler(this.rbSoru3_CheckedChanged);
             // 
@@ -214,9 +214,9 @@
             this.rbSoru2.AutoSize = true;
             this.rbSoru2.Location = new System.Drawing.Point(18, 47);
             this.rbSoru2.Name = "rbSoru2";
-            this.rbSoru2.Size = new System.Drawing.Size(83, 25);
+            this.rbSoru2.Size = new System.Drawing.Size(257, 25);
             this.rbSoru2.TabIndex = 4;
-            this.rbSoru2.Text = "SORU 2";
+            this.rbSoru2.Text = "EN SEVDİĞİNİZ ÖĞRETMEN ADI";
             this.rbSoru2.UseVisualStyleBackColor = true;
             this.rbSoru2.CheckedChanged += new System.EventHandler(this.rbSoru2_CheckedChanged);
             // 
@@ -226,10 +226,10 @@
             this.rbSoru1.Checked = true;
             this.rbSoru1.Location = new System.Drawing.Point(18, 23);
             this.rbSoru1.Name = "rbSoru1";
-            this.rbSoru1.Size = new System.Drawing.Size(80, 25);
+            this.rbSoru1.Size = new System.Drawing.Size(225, 25);
             this.rbSoru1.TabIndex = 3;
             this.rbSoru1.TabStop = true;
-            this.rbSoru1.Text = "SORU 1";
+            this.rbSoru1.Text = "ANNENİZİN KIZLIK SOYADI";
             this.rbSoru1.UseVisualStyleBackColor = true;
             this.rbSoru1.CheckedChanged += new System.EventHandler(this.rbSoru1_CheckedChanged);
             // 

@@ -50,6 +50,8 @@
             this.toolStripStatusLabel8 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblOtelTipi = new System.Windows.Forms.ToolStripStatusLabel();
             this.pnlYanMenu = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnOdalarListesi = new System.Windows.Forms.Button();
             this.btn_odakayit = new System.Windows.Forms.Button();
             this.btnKullaniciBilgiDüzenleme = new System.Windows.Forms.Button();
@@ -67,7 +69,6 @@
             this.btnSonraki = new System.Windows.Forms.Button();
             this.btnOrtak = new System.Windows.Forms.Button();
             this.pbOlustur = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.pnlUstmenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBildirim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -82,7 +83,6 @@
             // pnlUstmenu
             // 
             this.pnlUstmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.pnlUstmenu.Controls.Add(this.flowLayoutPanel1);
             this.pnlUstmenu.Controls.Add(this.pBildirim);
             this.pnlUstmenu.Controls.Add(this.pictureBox1);
             this.pnlUstmenu.Controls.Add(this.btn_cıkıs);
@@ -98,9 +98,9 @@
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(247)))), ((int)(((byte)(254)))));
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(201, 48);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(894, 56);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1284, 590);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(548, 294);
             this.flowLayoutPanel1.TabIndex = 8;
             // 
             // pBildirim
@@ -292,6 +292,7 @@
             // pnlYanMenu
             // 
             this.pnlYanMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.pnlYanMenu.Controls.Add(this.button3);
             this.pnlYanMenu.Controls.Add(this.button2);
             this.pnlYanMenu.Controls.Add(this.btnOdalarListesi);
             this.pnlYanMenu.Controls.Add(this.btn_odakayit);
@@ -308,6 +309,44 @@
             this.pnlYanMenu.Name = "pnlYanMenu";
             this.pnlYanMenu.Size = new System.Drawing.Size(200, 593);
             this.pnlYanMenu.TabIndex = 3;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(0, 385);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 35);
+            this.button3.TabIndex = 24;
+            this.button3.Text = "AYRILAN KİŞİLER";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 350);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 35);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "KONAKLAYAN LİSTESİ";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // btnOdalarListesi
             // 
@@ -575,31 +614,13 @@
             this.pbOlustur.MouseLeave += new System.EventHandler(this.pbOlustur_MouseLeave);
             this.pbOlustur.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pbOlustur_MouseMove);
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(55)))), ((int)(((byte)(64)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(187)))), ((int)(((byte)(216)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 350);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 35);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "KONAKLAYAN LİSTESİ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
             // frmAnaEkran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(247)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(1490, 682);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pnlSecenek);
             this.Controls.Add(this.pbOlustur);
             this.Controls.Add(this.pnlYanMenu);
@@ -672,5 +693,6 @@
         private System.Windows.Forms.Button btn_odakayit;
         private System.Windows.Forms.Button btnOdalarListesi;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

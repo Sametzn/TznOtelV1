@@ -189,12 +189,10 @@ namespace TznOtelV1
             int sayi = flowLayoutPanel1.Controls.Count;
             if (sayi == 0)
             {
-                
                 pBildirim.Image = Properties.Resources.bell;
             }
             else
             {
-                
                 pBildirim.Image = Properties.Resources.notification;
             }
             onaySorgulamaIstemi();
@@ -418,7 +416,7 @@ namespace TznOtelV1
         private void pBildirim_Click(object sender, EventArgs e)
         {
             int sayi = flowLayoutPanel1.Controls.Count;
-            if (sayi ==0)
+            if (sayi == 0)
             {
                 frmPopupmenu frm = new frmPopupmenu();
                 frm.Show();
@@ -426,7 +424,7 @@ namespace TznOtelV1
             }
             else
             {
-                
+
                 if (flowLayoutPanel1.Visible == true)
                 {
                     flowLayoutPanel1.Visible = false;
@@ -575,6 +573,19 @@ namespace TznOtelV1
             frmKonaklayanlarListesi frm = new frmKonaklayanlarListesi();
             //frm.gelenKisiTcNumarası = lblTcNo.Text;
             //frm.gelenOtelKodu = lblOtel.Text;
+            frm.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources.Graphicloads_Colorful_Long_Shadow_Button_5_forward_48;
+            pnlUstmenu.BackColor = Color.FromArgb(39, 187, 216);
+            ALTMENU.BackColor = Color.FromArgb(39, 187, 216);
+            btn_cıkıs.BackColor = Color.FromArgb(17, 55, 64);
+            menuKapat.Stop();
+            menuAc.Stop();
+            menuKapat.Start();
+            frmAyrilanKisiler frm = new frmAyrilanKisiler();
             frm.ShowDialog();
         }
     }

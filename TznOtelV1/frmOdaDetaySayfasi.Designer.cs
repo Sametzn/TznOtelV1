@@ -71,9 +71,7 @@
             this.btnKaydiTamamla = new System.Windows.Forms.Button();
             this.btnTemizle = new System.Windows.Forms.Button();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.cikisT = new System.Windows.Forms.DateTimePicker();
             this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.girisT = new System.Windows.Forms.DateTimePicker();
             this.groupBox20 = new System.Windows.Forms.GroupBox();
             this.flpYataklar = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox19 = new System.Windows.Forms.GroupBox();
@@ -144,6 +142,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.girisT = new System.Windows.Forms.DateTimePicker();
+            this.cikisT = new System.Windows.Forms.DateTimePicker();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -326,9 +326,9 @@
             this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox8.Location = new System.Drawing.Point(11, 110);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(99, 25);
+            this.checkBox8.Size = new System.Drawing.Size(75, 25);
             this.checkBox8.TabIndex = 6;
-            this.checkBox8.Text = "ÖZELLİK 7";
+            this.checkBox8.Text = "KLİMA";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // checkBox6
@@ -338,9 +338,9 @@
             this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox6.Location = new System.Drawing.Point(125, 82);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(99, 25);
+            this.checkBox6.Size = new System.Drawing.Size(74, 25);
             this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "ÖZELLİK 6";
+            this.checkBox6.Text = "KÜVET";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // checkBox5
@@ -350,9 +350,9 @@
             this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox5.Location = new System.Drawing.Point(11, 82);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(99, 25);
+            this.checkBox5.Size = new System.Drawing.Size(98, 25);
             this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "ÖZELLİK 5";
+            this.checkBox5.Text = "MİNİ BAR";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // checkBox4
@@ -362,9 +362,9 @@
             this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox4.Location = new System.Drawing.Point(125, 53);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(99, 25);
+            this.checkBox4.Size = new System.Drawing.Size(105, 25);
             this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "ÖZELLİK 4";
+            this.checkBox4.Text = "GARDIROP";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox3
@@ -374,9 +374,9 @@
             this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox3.Location = new System.Drawing.Point(11, 53);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(99, 25);
+            this.checkBox3.Size = new System.Drawing.Size(63, 25);
             this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "ÖZELLİK 3";
+            this.checkBox3.Text = "Wi-Fi";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox2
@@ -384,11 +384,11 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.Location = new System.Drawing.Point(125, 23);
+            this.checkBox2.Location = new System.Drawing.Point(124, 23);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(99, 25);
+            this.checkBox2.Size = new System.Drawing.Size(108, 25);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "ÖZELLİK 2";
+            this.checkBox2.Text = "ÖZEL KASA";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
@@ -398,9 +398,9 @@
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Location = new System.Drawing.Point(11, 23);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(96, 25);
+            this.checkBox1.Size = new System.Drawing.Size(116, 25);
             this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "ÖZELLİK 1";
+            this.checkBox1.Text = "TELEVİZYON";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // groupBox4
@@ -729,19 +729,6 @@
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "ÇIKIŞ TARİHİ";
             // 
-            // cikisT
-            // 
-            this.cikisT.Checked = false;
-            this.cikisT.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.cikisT.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.cikisT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.cikisT.Location = new System.Drawing.Point(3, 33);
-            this.cikisT.Name = "cikisT";
-            this.cikisT.Size = new System.Drawing.Size(221, 29);
-            this.cikisT.TabIndex = 1;
-            this.cikisT.UseWaitCursor = true;
-            this.cikisT.Value = new System.DateTime(2025, 5, 3, 0, 0, 0, 0);
-            // 
             // groupBox21
             // 
             this.groupBox21.Controls.Add(this.girisT);
@@ -752,20 +739,6 @@
             this.groupBox21.TabIndex = 16;
             this.groupBox21.TabStop = false;
             this.groupBox21.Text = "GİRİŞ TARİHİ";
-            // 
-            // girisT
-            // 
-            this.girisT.Checked = false;
-            this.girisT.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.girisT.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.girisT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.girisT.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.girisT.Location = new System.Drawing.Point(3, 33);
-            this.girisT.Name = "girisT";
-            this.girisT.Size = new System.Drawing.Size(219, 29);
-            this.girisT.TabIndex = 0;
-            this.girisT.UseWaitCursor = true;
-            this.girisT.Value = new System.DateTime(2025, 5, 3, 0, 0, 0, 0);
             // 
             // groupBox20
             // 
@@ -1651,6 +1624,26 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "YATAK HARİTASI";
             // 
+            // girisT
+            // 
+            this.girisT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.girisT.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.girisT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.girisT.Location = new System.Drawing.Point(3, 33);
+            this.girisT.Name = "girisT";
+            this.girisT.Size = new System.Drawing.Size(219, 29);
+            this.girisT.TabIndex = 5;
+            // 
+            // cikisT
+            // 
+            this.cikisT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cikisT.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cikisT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.cikisT.Location = new System.Drawing.Point(3, 33);
+            this.cikisT.Name = "cikisT";
+            this.cikisT.Size = new System.Drawing.Size(221, 29);
+            this.cikisT.TabIndex = 5;
+            // 
             // frmOdaDetaySayfasi
             // 
             this.AcceptButton = this.btnKaydiTamamla;
@@ -1851,7 +1844,6 @@
         private System.Windows.Forms.Button btnKaydiTamamla;
         private System.Windows.Forms.Button btnTemizle;
         private System.Windows.Forms.TextBox txtAciklama;
-        private System.Windows.Forms.DateTimePicker cikisT;
         private System.Windows.Forms.FlowLayoutPanel flpYataklar;
         private System.Windows.Forms.DateTimePicker dtpDogumT;
         private System.Windows.Forms.Label lblCinsiyet;
@@ -1860,7 +1852,6 @@
         private System.Windows.Forms.Label lblKayitTuru;
         private System.Windows.Forms.Label lblCocuk;
         private System.Windows.Forms.MaskedTextBox txtTelNo;
-        private System.Windows.Forms.DateTimePicker girisT;
         private System.Windows.Forms.Label lblSeciliYatakNo;
         private System.Windows.Forms.FlowLayoutPanel flpharita;
         private System.Windows.Forms.Panel pnlYatakHaritası;
@@ -1868,5 +1859,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnKapat;
+        private System.Windows.Forms.DateTimePicker cikisT;
+        private System.Windows.Forms.DateTimePicker girisT;
     }
 }

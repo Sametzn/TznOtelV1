@@ -227,27 +227,3 @@ namespace TznOtelV1
         }
     }
 }
-//kullaniciAdiKontrolMetodu();
-//if (kulAdiKontrol == true)
-//{
-//    frmPopupmenu frm = new frmPopupmenu();
-//    frm.label1.Text = "GİRİLEN KULLANICI ADI KULLANILMAKTADIR";
-//    frm.Show();
-//}
-//else
-//{
-//    baglanti.Open();
-//    SqlCommand komut = new SqlCommand("UPDATE Tbl_Kisiler SET kisiKul=@kisiKul,kisiParola=@kisiParola, kisiSoru=@kisiSoru, kisiCevap=@kisiCevap WHERE kisiTc=@p2", baglanti);
-//    komut.Parameters.AddWithValue("@p2", gelenKisiTcNumarası);
-//    komut.Parameters.AddWithValue("@kisiKul", txtKullaniciAdi.Text);
-//    komut.Parameters.AddWithValue("@kisiParola", txtParola.Text);
-//    komut.Parameters.AddWithValue("@kisiSoru", lblSecilenSoru.Text);
-//    komut.Parameters.AddWithValue("@kisiCevap", txtCevap.Text);
-//    komut.ExecuteNonQuery();
-//    baglanti.Close();
-//    kisiBilgiGetir();
-//    frmPopupmenu frm = new frmPopupmenu();
-//    frm.label1.Text = "GÜNCELLEME İŞLEMİ BAŞARILI";
-//    frm.Show();
-//    label7.Text = "1";
-//}
